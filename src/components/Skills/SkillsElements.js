@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { defaultThemeColours } from "../utils/Colours";
+import { defaultThemeColours } from "../../utils/Colours";
 
 export const SkillsContainer = styled.div`
   width: 100%;

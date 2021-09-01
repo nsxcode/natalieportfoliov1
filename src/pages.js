@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Hero from "./components/Hero/Hero";
-import Skills from "./Skills/Skills";
+import Skills from "./components/Skills/Skills";
 
 const Home = () => {
     const [isOpen , setIsOpen] = useState(false);
