@@ -28,7 +28,13 @@ export const CardContainer = styled.div`
   height: 100%;
   border-radius: 0 0 12px 12px;
   margin-bottom: 14px;
+
  @media screen and (max-width: 768px) {
+  width: 304px;
+
+ }
+ 
+ @media screen and (max-width: 303px) {
     width: 230px;
  }
 `
@@ -38,6 +44,11 @@ export const ProjectImage = styled.img `
   height: 352px;
   border-radius: 12px 12px 0 0;
  @media screen and (max-width: 768px) {
+  width: 304px;
+  height: 173px;
+ }
+ 
+ @media screen and (max-width: 303px) {
    width: 230px;
    height: 131px;
  }

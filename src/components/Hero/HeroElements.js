@@ -47,7 +47,7 @@ export const HeroText = styled.div`
     font-size: 1rem;
     flex-wrap: wrap;
     text-align: center;
-    margin: 1%;
+    padding: 4%;
   }
 `
 

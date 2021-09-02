@@ -25,7 +25,7 @@ export const NavContainer = styled.div`
 `
 
 // Logo container + Sizing
-export const NavbarLogo = styled(LinkR)`
+export const NavbarLogo = styled(LinkS)`
   justify-self: flex-start; 
   cursor: pointer;
   display: flex;

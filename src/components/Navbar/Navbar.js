@@ -7,7 +7,7 @@ const Navbar = ( {toggle} ) => {
     return(
         <NavContainer>
             <NavLeft>
-                <NavbarLogo to='/'>
+                <NavbarLogo  activeClass='active' to='hero' spy={true} smooth={true} offset={-70} duration={500}>
                     <LogoImg src={logo} alt=""/>
                 </NavbarLogo>
             </NavLeft>
@@ -18,9 +18,9 @@ const Navbar = ( {toggle} ) => {
             <NavRight>
                 <NavMenu>
                     <NavItem>
-                        <NavLink to='skills'>Skills</NavLink>
-                        <NavLink to='projects'>Projects</NavLink>
-                        <NavLink to='contact'>Contact</NavLink>
+                        <NavLink activeClass='active' to='skills' spy={true} smooth={true} offset={-70} duration={500}>Skills</NavLink>
+                        <NavLink activeClass='active' to='projects' spy={true} smooth={true} offset={-70} duration={500}>Projects</NavLink>
+                        <NavLink activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500}>Contact</NavLink>
                         <NavLink>Change Theme</NavLink>
                     </NavItem>
                 </NavMenu>

@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 
 const Hero = () => {
     return(
-        <HeroContainer>
+        <HeroContainer id='hero'>
             <HeroHeading>
                 Hey, my name is Natalie.
             </HeroHeading>

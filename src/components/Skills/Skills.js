@@ -3,7 +3,7 @@ import {SkillsContainer, ListContainer, List, Row, Heading, Column, SecondaryTex
 
 const Skills = () => {
     return(
-        <SkillsContainer>
+        <SkillsContainer id='skills'>
             <Heading>
                 Skills
             </Heading>

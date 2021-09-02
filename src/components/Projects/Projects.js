@@ -4,7 +4,7 @@ import {Container, Row, Column, Heading, ColumnCard, CardContainer, Text, Info, 
 
 const Projects = () => {
     return(
-        <Container>
+        <Container id='projects'>
             <Heading>
                 Projects
             </Heading>
