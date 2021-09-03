@@ -11,6 +11,7 @@ export const defaultTheme = {
     borderColor: defaultThemeColours['flushedPink'],
     hoverColor: defaultThemeColours['flushedPink'],
     cardBackgroundColor: '#FAE8E4',
+    footerBackground: '#FAE8E4',
 
 
 
@@ -26,6 +27,7 @@ export const luxuryTheme = {
     borderColor: luxuryThemeColours['oceanBlue'],
     hoverColor: luxuryThemeColours['oceanBlue'],
     cardBackgroundColor: luxuryThemeColours['skyBlue'],
+    footerBackground: luxuryThemeColours['navyBlue'],
 
 
 

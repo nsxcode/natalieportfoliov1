@@ -10,6 +10,7 @@ import { ThemeProvider } from "styled-components";
 import {defaultTheme, luxuryTheme} from "./utils/Themes";
 import logo from './assets/logo.png'
 import bluelogo from './assets/bluelogo.png'
+import Footer from "./components/Footer/Footer";
 
 const Home = () => {
     const [isOpen , setIsOpen] = useState(false);
@@ -34,6 +35,7 @@ const Home = () => {
             <Projects/>
             <Contact/>
             <ToTop/>
+            <Footer/>
         </ThemeProvider>
 
     );
