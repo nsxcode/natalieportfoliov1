@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { defaultThemeColours } from "../../utils/Colours";
 
 export const Container = styled.div `
   width: 100%;

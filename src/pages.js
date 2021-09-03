@@ -8,8 +8,6 @@ import ToTop from "./components/ScrollToTop/ScrollToTop";
 import Contact from "./components/Contact/Contact";
 import { ThemeProvider } from "styled-components";
 import {defaultTheme, luxuryTheme} from "./utils/Themes";
-import logo from './assets/logo.png'
-import bluelogo from './assets/bluelogo.png'
 import Footer from "./components/Footer/Footer";
 
 const Home = () => {

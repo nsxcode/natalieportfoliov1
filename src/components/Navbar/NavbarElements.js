@@ -1,13 +1,7 @@
 import styled from "styled-components";
-import {Link as LinkR} from "react-router-dom";
 import {Link as LinkS} from "react-scroll";
-import { defaultThemeColours } from "../../utils/Colours";
-import {defaultTheme, luxuryTheme} from "../../utils/Themes";
 
 export const NavContainer = styled.div`
-  //background color css came from a gradient generator
-  //background: hsla(0, 100%, 94%, 1);
-  //background: linear-gradient(225deg, hsla(0, 100%, 94%, 1) 0%, hsla(36, 65%, 95%, 1) 100%);
   background: ${props => props.theme.navbarBackground};
   //Basic container attributes
   height: 80px;

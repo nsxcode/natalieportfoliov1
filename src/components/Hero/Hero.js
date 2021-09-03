@@ -1,8 +1,6 @@
 import React from "react";
 import {HeroContainer, HeroHeading, HeroText, HeroImage} from "./HeroElements";
 import logo from '../../assets/logo.png'
-import bluelogo from '../../assets/bluelogo.png'
-import newlogo from '../../assets/newlogo.png'
 
 const Hero = () => {
 

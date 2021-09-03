@@ -15,7 +15,7 @@ const Contact = () => {
             <ContactCardContainer>
                 <IconImg src={linkedin}/>
                 <ContactCardInfo>
-                    <a target="_blank" style={{textDecoration: 'none'}} href="https://www.linkedin.com/in/natalie-sahadeo-3328061b6">Linkedin</a>
+                    <a style={{textDecoration: 'none'}} href="https://www.linkedin.com/in/natalie-sahadeo-3328061b6">Linkedin</a>
                 </ContactCardInfo>
             </ContactCardContainer>
             <ContactCardContainer>

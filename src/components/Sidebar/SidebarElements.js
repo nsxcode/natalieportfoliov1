@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { defaultThemeColours } from "../../utils/Colours";
 import {Link as LinkS} from "react-scroll";
 
 export const SidebarContainer = styled.aside`

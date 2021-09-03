@@ -1,7 +1,4 @@
-import {defaultThemeColours, luxuryThemeColours, defaultNavGradient, luxNavGradient} from "./Colours";
-import logo from '../assets/logo.png'
-
-
+import {defaultThemeColours, luxuryThemeColours, defaultNavGradient} from "./Colours";
 
 export const defaultTheme = {
     navbarBackground: defaultNavGradient["background"],
@@ -12,11 +9,6 @@ export const defaultTheme = {
     hoverColor: defaultThemeColours['flushedPink'],
     cardBackgroundColor: '#FAE8E4',
     footerBackground: '#FAE8E4',
-
-
-
-
-
 };
 
 export const luxuryTheme = {
@@ -28,9 +20,4 @@ export const luxuryTheme = {
     hoverColor: luxuryThemeColours['oceanBlue'],
     cardBackgroundColor: luxuryThemeColours['skyBlue'],
     footerBackground: luxuryThemeColours['navyBlue'],
-
-
-
-
-
 };
