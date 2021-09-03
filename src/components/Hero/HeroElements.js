@@ -22,8 +22,10 @@ export const HeroHeading = styled.div`
   padding-top: 7%;
   margin-top: -60px;
   @media screen and (max-width: 768px) {
-    font-size: 24px;
-   margin-top: -20px;
+    font-size: 35px;
+    margin-top: -20px;
+   //margin-top: -20px;
+    text-align: center;
   }
 `
 

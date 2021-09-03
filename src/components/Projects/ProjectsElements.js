@@ -18,7 +18,7 @@ export const Heading = styled.div`
   display: flex;
   justify-content: center;
  @media screen and (max-width: 768px) {
-    font-size: 40px;
+  font-size: 35px;
  }
 `
 
@@ -27,7 +27,7 @@ export const CardContainer = styled.div`
   width: 617px;
   height: 100%;
   border-radius: 0 0 12px 12px;
-  margin-bottom: 14px;
+  margin-bottom: 40px;
 
  @media screen and (max-width: 768px) {
   width: 304px;

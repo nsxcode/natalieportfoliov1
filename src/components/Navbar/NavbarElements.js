@@ -87,6 +87,27 @@ export const NavLink = styled(LinkS)`
     border-bottom: 3px solid ${defaultThemeColours.flushedPink};
   }
 `
+
+export const NavContactLink = styled(LinkR)`
+  color: #000;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  cursor: pointer;
+  font-family: 'Italiana', serif;
+  font-size: 1.2rem;
+  &:hover{
+    outline: 2px solid ${defaultThemeColours.flushedPink};
+    outline-offset: 1px;
+    margin: 15px
+  }
+
+  &:active{
+    border-bottom: 3px solid ${defaultThemeColours.flushedPink};
+  }
+  
+`
 export const NavLeft = styled.div`
   display: flex;
 `
@@ -101,3 +122,5 @@ export const NavMiddle = styled.div`
 export const NavRight = styled.div`
   display: flex;
 `
+
+

@@ -4,8 +4,8 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Hero from "./components/Hero/Hero";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import ToTop from "./components/ScrollToTop/ScrollToTop";
+import Contact from "./components/Contact/Contact";
 
 const Home = () => {
     const [isOpen , setIsOpen] = useState(false);
@@ -19,6 +19,7 @@ const Home = () => {
             <Hero/>
             <Skills/>
             <Projects/>
+            <Contact/>
             <ToTop/>
         </>
 
