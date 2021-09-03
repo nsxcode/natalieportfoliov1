@@ -7,6 +7,7 @@ import FontStyles from "./FontStyles";
 
 ReactDOM.render(
   <React.StrictMode>
+    <FontStyles/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
