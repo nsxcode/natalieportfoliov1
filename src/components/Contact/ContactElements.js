@@ -61,8 +61,6 @@ export const ContactCardInfo = styled.div`
   @media screen and (max-width: 768px) {
     font-size: 15px;
     margin: 10px;
-    
-    
   }
 `
 
@@ -75,10 +73,7 @@ export const IconImg = styled.img`
     width: 20px;
     height: 20px;
     margin-left: 20px;
-
-
   }
-  
 `
 
 export const Subtext = styled.div`

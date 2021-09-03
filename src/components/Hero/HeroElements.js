@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { defaultThemeColours } from "../../utils/Colours";
 import {fontSizes} from "../../utils/FontSizes";
 
 export const HeroContainer = styled.div`
