@@ -26,7 +26,7 @@ const Home = () => {
 
     return(
         <ThemeProvider theme={useLuxTheme ? luxuryTheme : defaultTheme}>
-            <Sidebar isOpen={isOpen} toggle = {toggle}/>
+            <Sidebar isOpen={isOpen} toggle = {toggle} changeTheme={changeTheme}/>
             <Navbar  toggle={toggle} changeTheme={changeTheme}/>
             <Hero/>
             <Skills/>
