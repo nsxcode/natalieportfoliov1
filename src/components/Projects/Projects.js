@@ -1,5 +1,6 @@
 import React from "react";
 import WeatherSurfer from '../../assets/weather-surfer-celcius-example.png'
+import PersonalPortfolio from '../../assets/personalPortflio.png'
 import {Container, Row, Column, Heading, ColumnCard, CardContainer, Text, Info, PrimaryFontHeader, ProjectImage, ProjectLink} from "./ProjectsElements";
 
 const Projects = () => {
@@ -14,15 +15,12 @@ const Projects = () => {
                     <CardContainer>
                         <Info>
                             <PrimaryFontHeader>Weather Surfer</PrimaryFontHeader>
-                            <Text> HTML, CSS, Javscript</Text>
+                            <Text> HTML, CSS, Javascript</Text>
                             <Text>Weather Surfer is made using OpenWeather API to retrieve live weather data information from any city
                                 in the world. This project was made using HTML, CSS, and JS. It's also responsive.</Text>
                             <Row>
                                 <ColumnCard>
-                                    <ProjectLink href="">Launch Project</ProjectLink>
-                                </ColumnCard>
-                                <ColumnCard>
-                                    <ProjectLink href="">Github</ProjectLink>
+                                    <ProjectLink href="https://github.com/nsxcode/weather-surfer">Github</ProjectLink>
                                 </ColumnCard>
                                 <ColumnCard>
                                     <ProjectLink href="">UI Design Process</ProjectLink>
@@ -32,19 +30,16 @@ const Projects = () => {
                     </CardContainer>
                 </Column>
                 <Column>
-                    <ProjectImage src={WeatherSurfer}/>
+                    <ProjectImage src={PersonalPortfolio}/>
                     <CardContainer>
                         <Info>
-                            <PrimaryFontHeader>Weather Surfer</PrimaryFontHeader>
-                            <Text> HTML, CSS, Javscript</Text>
-                            <Text>Weather Surfer is made using OpenWeather API to retrieve live weather data information from any city
-                                in the world. This project was made using HTML, CSS, and JS. It's also responsive.</Text>
+                            <PrimaryFontHeader>Personal Portfolio</PrimaryFontHeader>
+                            <Text> React </Text>
+                            <Text>Personal Portfolio is the website you are on right now! It was made using React, styled-components, react-scroll, and some other libraries.
+                                The special feature is being able to change the theme by clicking or pressing on "Change Theme". </Text>
                             <Row>
                                 <ColumnCard>
-                                    <ProjectLink href="">Launch Project</ProjectLink>
-                                </ColumnCard>
-                                <ColumnCard>
-                                    <ProjectLink href="">Github</ProjectLink>
+                                    <ProjectLink href="https://github.com/nsxcode/natalieportfoliov1">Github</ProjectLink>
                                 </ColumnCard>
                                 <ColumnCard>
                                     <ProjectLink href="">UI Design Process</ProjectLink>
