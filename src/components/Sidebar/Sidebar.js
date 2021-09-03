@@ -12,7 +12,7 @@ const Sidebar = ({isOpen, toggle, changeTheme}) => {
                     <SidebarLink to='projects' onClick={toggle}>
                         Projects
                     </SidebarLink>
-                    <SidebarLink to='contacts' onClick={toggle}>
+                    <SidebarLink to='contact' onClick={toggle}>
                         Contacts
                     </SidebarLink>
                     <SidebarLink onClick={changeTheme} >
