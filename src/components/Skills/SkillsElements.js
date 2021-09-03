@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { defaultThemeColours } from "../../utils/Colours";
+import {fontSizes} from "../../utils/FontSizes";
 
 export const SkillsContainer = styled.div`
   width: 100%;
@@ -7,9 +7,9 @@ export const SkillsContainer = styled.div`
   border-style: solid;
   border-left: none;
   border-right: none;
-  border-color: ${defaultThemeColours.flushedPink};
+  border-color: ${props => props.theme.borderColor};
   border-width: 1px;
-  background-color: ${defaultThemeColours.yellowBeige};
+  background-color: ${props => props.theme.background};
   padding-top: 1%;
   display: flex;
   justify-content: center;
@@ -21,11 +21,12 @@ export const Heading = styled.div`
   font-family: 'Italiana', serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
+  font-size: ${fontSizes.mainHeading};
   line-height: 85px;
   padding-top: 1%;
   display: flex;
   justify-content: center;
+  color: ${props => props.theme.text};
 
   @media screen and (max-width: 768px) {
     font-size: 35px;
@@ -34,10 +35,11 @@ export const Heading = styled.div`
 
 export const SecondaryText = styled.div`
   font-family: 'Cormorant', serif;
-  font-size: 1.3rem;
+  font-size: ${fontSizes.subHeading};
+  color: ${props => props.theme.text};
 
   @media screen and (max-width: 768px) {
-    font-size: 1rem;
+    font-size: ${fontSizes.mobileSubHeading};
     text-align: center;
     padding: 1%;
   }
@@ -45,6 +47,7 @@ export const SecondaryText = styled.div`
 
 export const PrimaryFontHeader = styled.h2`
   font-family: 'Italiana', serif;
+  color: ${props => props.theme.text};
   @media screen and (max-width: 768px) {
     padding-right: 25px;
     text-align: center;
@@ -91,6 +94,7 @@ export const List = styled.li `
   font-family: 'Cormorant', serif;
   font-size: 1.3rem;
   align-items: center;
+  color: ${props => props.theme.text};
   
   @media screen and (max-width: 768px) {
     padding-right: 25px;

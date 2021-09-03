@@ -6,7 +6,7 @@ export const SidebarContainer = styled.aside`
   position: fixed;
   width: 100%;
   height: 100%;
-  background: ${defaultThemeColours.yellowBeige};
+  background: ${props => props.theme.background};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +39,7 @@ export const SidebarLink = styled(LinkS)`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  color: #000;
+  color: ${props => props.theme.text};
   cursor: pointer;
   font-family: 'Italiana', serif;
   padding-right: 30px;

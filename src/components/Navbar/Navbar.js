@@ -3,7 +3,7 @@ import { NavContainer, NavMenu, NavItem, NavLink, MobileIcon, NavbarLogo,  LogoI
 import logo from'../../assets/logo.png'
 import {FaBars} from 'react-icons/fa'
 
-const Navbar = ( {toggle} ) => {
+const Navbar = ( {toggle, changeTheme} ) => {
     return(
         <NavContainer>
             <NavLeft>
@@ -21,7 +21,7 @@ const Navbar = ( {toggle} ) => {
                         <NavLink activeClass='active' to='skills' spy={true} smooth={true} offset={-70} duration={500}>Skills</NavLink>
                         <NavLink activeClass='active' to='projects' spy={true} smooth={true} offset={-70} duration={500}>Projects</NavLink>
                         <NavLink activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500}>Contact</NavLink>
-                        <NavLink>Change Theme</NavLink>
+                        <NavLink onClick={changeTheme}>Change Theme</NavLink>
                     </NavItem>
                 </NavMenu>
                 <MobileIcon onClick={toggle}>

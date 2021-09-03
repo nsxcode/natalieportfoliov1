@@ -4,7 +4,7 @@ import { defaultThemeColours } from "../../utils/Colours";
 export const Container = styled.div `
   width: 100%;
   height: 100%;
-  background-color: ${defaultThemeColours.yellowBeige};
+  background-color: ${props => props.theme.background};
   display: flex;
   flex-direction: column;
 `
@@ -17,13 +17,14 @@ export const Heading = styled.div`
   padding-bottom: 2%;
   display: flex;
   justify-content: center;
+ color: ${props => props.theme.text};
  @media screen and (max-width: 768px) {
   font-size: 35px;
  }
 `
 
 export const CardContainer = styled.div`
-  background-color: #FAE8E4;
+  background-color: ${props => props.theme.cardBackgroundColor};
   width: 617px;
   height: 100%;
   border-radius: 0 0 12px 12px;
@@ -77,11 +78,13 @@ export const ColumnCard = styled.div`
 
 export const PrimaryFontHeader = styled.h2`
   font-family: 'Italiana', serif;
+ 
  `
 export const Info = styled.div`
   padding: 1.1rem;
   padding-top: 0;
   margin: 0;
+
 `
 
 export const ProjectLink = styled.a `

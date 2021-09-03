@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import {defaultThemeColours} from "../../utils/Colours";
+import {fontSizes} from "../../utils/FontSizes";
 
 export const ContactContainer = styled.div`
   width: 100%;
   height: 100%;
-  background-color: ${defaultThemeColours.yellowBeige};
+  background-color: ${props => props.theme.background};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +15,7 @@ export const ContactContainer = styled.div`
   border-style: solid;
   border-left: none;
   border-right: none;
-  border-color: ${defaultThemeColours.flushedPink};
+  border-color: ${props => props.theme.borderColor};
   border-width: 1px;
 `
 
@@ -22,11 +23,12 @@ export const ContactHeading = styled.div`
   font-family: 'Italiana', serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
+  font-size: ${fontSizes.mainHeading};
   line-height: 85px;
   padding-top: 7%;
   margin-top: -60px;
   margin-bottom: 30px;
+  color: ${props => props.theme.text};
   @media screen and (max-width: 768px) {
     font-size: 35px;
     margin-top: -20px;
@@ -34,7 +36,7 @@ export const ContactHeading = styled.div`
 
 `
 export const ContactCardContainer = styled.div`
-  background-color: #FAE8E4;
+  background-color: ${props => props.theme.cardBackgroundColor};
   width: 617px;
   height: 80px;
   border-radius: 12px;
@@ -56,7 +58,6 @@ export const ContactCardInfo = styled.div`
   font-family: 'Cormorant', serif;
   margin: 40px;
   font-size: 25px;
-
   @media screen and (max-width: 768px) {
     font-size: 15px;
     margin: 10px;
@@ -82,13 +83,14 @@ export const IconImg = styled.img`
 
 export const Subtext = styled.div`
   font-family: 'Cormorant', serif;
-  font-size: 1.3rem;
+  font-size: ${fontSizes.subHeading};
   margin-top: -30px;
   margin-bottom: 15px;
+  color: ${props => props.theme.text};
 
   @media screen and (max-width: 768px) {
-    font-size: 1rem;
+    font-size: ${fontSizes.mobileSubHeading};
     text-align: center;
-    padding: 1%;
+    padding: 2%;
   }
 `
