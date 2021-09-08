@@ -22,9 +22,6 @@ const Projects = () => {
                                 <ColumnCard>
                                     <ProjectLink href="https://github.com/nsxcode/weather-surfer">Github</ProjectLink>
                                 </ColumnCard>
-                                <ColumnCard>
-                                    <ProjectLink href="">UX Design Process</ProjectLink>
-                                </ColumnCard>
                             </Row>
                         </Info>
                     </CardContainer>
