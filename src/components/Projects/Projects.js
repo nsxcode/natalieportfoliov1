@@ -23,7 +23,7 @@ const Projects = () => {
                                     <ProjectLink href="https://github.com/nsxcode/weather-surfer">Github</ProjectLink>
                                 </ColumnCard>
                                 <ColumnCard>
-                                    <ProjectLink href="">UI Design Process</ProjectLink>
+                                    <ProjectLink href="">UX Design Process</ProjectLink>
                                 </ColumnCard>
                             </Row>
                         </Info>
@@ -42,7 +42,7 @@ const Projects = () => {
                                     <ProjectLink href="https://github.com/nsxcode/natalieportfoliov1">Github</ProjectLink>
                                 </ColumnCard>
                                 <ColumnCard>
-                                    <ProjectLink href="">UI Design Process</ProjectLink>
+                                    <ProjectLink href="https://www.figma.com/file/NUOjtOHAo3Lnkdfndsiooo/Natalie-s-Personal-Portfolio?node-id=3%3A44">UX Design Process</ProjectLink>
                                 </ColumnCard>
                             </Row>
                         </Info>

@@ -7,8 +7,8 @@ export const defaultTheme = {
     text: defaultThemeColours['black'],
     borderColor: defaultThemeColours['flushedPink'],
     hoverColor: defaultThemeColours['flushedPink'],
-    cardBackgroundColor: '#FAE8E4',
-    footerBackground: '#FAE8E4',
+    cardBackgroundColor: defaultThemeColours['lightPink'],
+    footerBackground:  defaultThemeColours['lightPink'],
 };
 
 export const luxuryTheme = {
