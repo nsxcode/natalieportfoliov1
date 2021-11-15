@@ -1,6 +1,8 @@
 import React from "react";
 import WeatherSurfer from '../../assets/weather-surfer-celcius-example.png'
 import PersonalPortfolio from '../../assets/personalPortflio.png'
+import LocationA3 from '../../assets/LocationA3.png'
+import Medario from '../../assets/Medario.png'
 import {Container, Row, Column, Heading, ColumnCard, CardContainer, Text, Info, PrimaryFontHeader, ProjectImage, ProjectLink} from "./ProjectsElements";
 
 const Projects = () => {
@@ -40,6 +42,43 @@ const Projects = () => {
                                 </ColumnCard>
                                 <ColumnCard>
                                     <ProjectLink href="https://www.figma.com/file/NUOjtOHAo3Lnkdfndsiooo/Natalie-s-Personal-Portfolio?node-id=3%3A44">UX Design Process</ProjectLink>
+                                </ColumnCard>
+                            </Row>
+                        </Info>
+                    </CardContainer>
+                </Column>
+
+
+            </Row>
+            <Row>
+                <Column>
+                    <ProjectImage src={LocationA3}/>
+                    <CardContainer>
+                        <Info>
+                            <PrimaryFontHeader>Location and Direction</PrimaryFontHeader>
+                            <Text> SwiftUI </Text>
+                            <Text>For one of assignments in the Advanced Mobile App Development course
+                                                I created an application that displays the users current location, and allows the user to find directions to a specified location
+                                                or for multiple stops. </Text>
+                            <Row>
+                                <ColumnCard>
+                                    <ProjectLink href="https://github.com/nsxcode/LocationAndDirections">Github</ProjectLink>
+                                </ColumnCard>
+                            </Row>
+                        </Info>
+                    </CardContainer>
+                </Column>
+
+                <Column>
+                    <ProjectImage src={Medario}/>
+                    <CardContainer>
+                        <Info>
+                            <PrimaryFontHeader>Medario</PrimaryFontHeader>
+                            <Text> SwiftUI </Text>
+                            <Text>Medario is a final group project for my Advanced Mobile App Development course. Medario is a medication reminder app to help the user to take their medication in a very simple gamified format. </Text>
+                            <Row>
+                                <ColumnCard>
+                                    <ProjectLink>Currently in development</ProjectLink>
                                 </ColumnCard>
                             </Row>
                         </Info>

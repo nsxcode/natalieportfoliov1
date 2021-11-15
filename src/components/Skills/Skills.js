@@ -17,7 +17,6 @@ const Skills = () => {
                     <ListContainer>
                         <PrimaryFontHeader>Cross Platform</PrimaryFontHeader>
                         <List>React Native</List>
-                        <List>Flutter</List>
                     </ListContainer>
                 </Column>
                 <Column>
