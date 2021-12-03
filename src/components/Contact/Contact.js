@@ -1,4 +1,4 @@
-import React from "react";
+
 import {ContactContainer, ContactHeading, ContactCardContainer, ContactCardInfo, IconImg, Subtext} from "./ContactElements";
 import linkedin from '../../assets/linkedin.png'
 import email from '../../assets/email.png'
